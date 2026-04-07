@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__figma__get_metadata",
+      "Bash(grep -oa 'name=\\\\\\\\\"[A-Z][A-Z /]*\\\\\\\\\"' \"C:/Users/majos/.claude/projects/D--proyectos-train64-demo/a8948c57-f7df-4530-ace7-852cd85f66de/tool-results/mcp-figma-get_design_context-1775064232233.txt\")",
+      "Bash(grep -oa 'id=\\\\\\\\\"[^\\\\\\\\\"]*\\\\\\\\\" name=\\\\\\\\\"[^\\\\\\\\\"]*[Cc]ard[^\\\\\\\\\"]*\\\\\\\\\"' \"C:/Users/majos/.claude/projects/D--proyectos-train64-demo/a8948c57-f7df-4530-ace7-852cd85f66de/tool-results/mcp-figma-get_design_context-1775064232233.txt\")",
+      "Bash(grep -oa 'id=\\\\\\\\\"[^\\\\\\\\\"]*\\\\\\\\\" name=\\\\\\\\\"Coach[^\\\\\\\\\"]*\\\\\\\\\"' \"C:/Users/majos/.claude/projects/D--proyectos-train64-demo/a8948c57-f7df-4530-ace7-852cd85f66de/tool-results/mcp-figma-get_design_context-1775064232233.txt\")",
+      "mcp__figma__get_design_context",
+      "Bash(grep -oa 'id=\\\\\\\\\"[^\\\\\\\\\"]*\\\\\\\\\" name=\\\\\\\\\"Card[^\\\\\\\\\"]*\\\\\\\\\"' \"C:/Users/majos/.claude/projects/D--proyectos-train64-demo/a8948c57-f7df-4530-ace7-852cd85f66de/tool-results/mcp-figma-get_metadata-1775063972295.txt\")",
+      "Bash(grep -oa 'id=\\\\\\\\\"[^\\\\\\\\\"]*\\\\\\\\\" name=\\\\\\\\\"[^\\\\\\\\\"]*[Ss]tudent[^\\\\\\\\\"]*\\\\\\\\\"' \"C:/Users/majos/.claude/projects/D--proyectos-train64-demo/a8948c57-f7df-4530-ace7-852cd85f66de/tool-results/mcp-figma-get_metadata-1775085949607.txt\")",
+      "Bash(grep -oa 'id=\\\\\\\\\"[^\\\\\\\\\"]*\\\\\\\\\" name=\\\\\\\\\"[^\\\\\\\\\"]*Landing[^\\\\\\\\\"]*\\\\\\\\\"' \"C:/Users/majos/.claude/projects/D--proyectos-train64-demo/a8948c57-f7df-4530-ace7-852cd85f66de/tool-results/mcp-figma-get_metadata-1775085949607.txt\")",
+      "Bash(grep -oa 'id=\\\\\\\\\"717:[^\\\\\\\\\"]*\\\\\\\\\" name=\\\\\\\\\"[A-Z][^\\\\\\\\\"]*\\\\\\\\\"' \"C:/Users/majos/.claude/projects/D--proyectos-train64-demo/a8948c57-f7df-4530-ace7-852cd85f66de/tool-results/mcp-figma-get_metadata-1775085999898.txt\")",
+      "Bash(grep:*)",
+      "mcp__figma__get_screenshot",
+      "Bash(python -c ':*)",
+      "Bash(python:*)",
+      "mcp__figma__get_variable_defs",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "Read(//c/Users/majos/.claude/skills/sdd-explore/**)"
+    ]
+  }
+}

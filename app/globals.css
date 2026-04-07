@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-brand-primary: #B58963;
+  --color-brand-primary-hover: #9E7554;
+  --color-brand-gold: #B76E2D;
+  --color-brand-gold-hover: #9A5D24;
+  --color-card-bg: rgba(241, 217, 182, 0.24);
+  --color-card-bg-hover: rgba(241, 217, 182, 0.42);
+  --color-card-bg-active: rgba(241, 217, 182, 0.58);
+  --color-card-border: rgba(181, 137, 99, 0.80);
+  --color-card-border-hover: rgba(181, 137, 99, 1);
+  --color-gold-outline-border: rgba(183, 110, 45, 0.20);
+  --color-gold-outline-border-hover: rgba(183, 110, 45, 0.55);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta),Arial, Helvetica, sans-serif;
+
+}
